@@ -1,0 +1,108 @@
+.navbar-search-navbar {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  z-index: 1000;
+  position: relative;
+  max-width: 1200px;
+  align-self: auto;
+  align-items: center;
+  flex-shrink: 1;
+}
+.navbar-search-branding-logo {
+  width: 10%;
+  height: 10%;
+  box-sizing: content-box;
+  background-size: cover;
+}
+.navbar-search-input-field {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 30%;
+  border-radius: 50px;
+  flex-direction: row;
+  background-color: #292929;
+}
+.navbar-search-textinput {
+  flex: 1;
+  color: #ffffff;
+  height: 24px;
+  line-height: 24px;
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  outline-style: none;
+  background-color: rgba(217, 217, 217, 0);
+}
+.navbar-search-buy {
+  display: flex;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: #80FF44;
+}
+.navbar-search-text {
+  color: rgb(12, 16, 12);
+  display: none;
+  font-size: 16px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 24px;
+}
+.navbar-search-text1 {
+  color: rgb(12, 16, 12);
+  display: flex;
+  font-size: 16px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+@media(max-width: 767px) {
+  .navbar-search-navbar {
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+  .navbar-search-branding-logo {
+    width: 80px;
+  }
+  .navbar-search-text1 {
+    color: rgb(12, 16, 12);
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 24px;
+  }
+}
+@media(max-width: 479px) {
+  .navbar-search-input-field {
+    display: none;
+  }
+  .navbar-search-textinput {
+    flex: 1;
+  }
+  .navbar-search-text {
+    color: rgb(12, 16, 12);
+    display: flex;
+    font-size: 24px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  .navbar-search-text1 {
+    color: rgb(12, 16, 12);
+    display: none;
+    font-size: 24px;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 24px;
+  }
+}
