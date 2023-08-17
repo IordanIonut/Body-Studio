@@ -5,6 +5,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Card = ({food, index}) => {
   console.log(food);
+  console.log(food);
+  console.log(food);
   return (
     <section className={`card-card`}>
       <div className="card-icon">
